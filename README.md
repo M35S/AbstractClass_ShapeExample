@@ -9,7 +9,7 @@ A UML Class Diagram of this example would look like the following:
           |                   ---------------------             |
           |                   |                   |             |
           |                   |--------------------             |
-          |                   | + *draw() = 0*    |             |
+          |                   | + draw() = 0      |             |
           |                   ---------------------             |
     ---------------------                                 ---------------------   // <- Derived class
     |     Triangle      |                                 |     Rectangle     |
