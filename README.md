@@ -4,7 +4,7 @@ A very basic example of an abstract class and inheritance relationship between c
 A UML Class Diagram of this example would look like the following:
 
                               ---------------------   // <- Abstract class
-                              |       Shape     |
+                              |       Shape       |
           ------------------->|                   |<-------------
           |                   ---------------------             |
           |                   |                   |             |
