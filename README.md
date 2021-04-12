@@ -4,21 +4,21 @@ A very basic example of an abstract class and inheritance relationship between c
 A UML Class Diagram of this example would look like the following:
 
                               ---------------------   // <- Abstract class
-                              |       *Shape*     |
+                              |       Shape     |
           ------------------->|                   |<-------------
           |                   ---------------------             |
           |                   |                   |             |
           |                   |--------------------             |
           |                   | + *draw() = 0*    |             |
           |                   ---------------------             |
-  ---------------------                                 ---------------------   // <- Derived class
-  |     Triangle      |                                 |     Rectangle     |
-  |                   |                                 |                   |
-  ---------------------                                 ---------------------
-  |                   |                                 |                   |
-  ---------------------                                 ---------------------
-  |                   |                                 |                   |
-  ---------------------                                 ---------------------
+    ---------------------                                 ---------------------   // <- Derived class
+    |     Triangle      |                                 |     Rectangle     |
+    |                   |                                 |                   |
+    ---------------------                                 ---------------------
+    |                   |                                 |                   |
+    ---------------------                                 ---------------------
+    |                   |                                 |                   |
+    ---------------------                                 ---------------------
 
 The class "*Shape*" is the abstract base class. 
-"*Shape*"s derived classes "Triangle" and "Rectangle" both inherit "*Shape*"s abstract function "*draw() = 0*".
+"*Shape*"s derived classes "Triangle" and "Rectangle" both inherit "*Shape*"s abstract function "*draw() = 0*"
